@@ -23,7 +23,7 @@ export class MyProjectsComponent {
         'A local catering business residing in Middleburg, Mpumalanga. Established 2020. 100 Emplopyess',
       tools: 'HTML  CSS  JS  PHP  SQL',
       id: '1',
-      link: 'https://github.com/Laoditius-M/Florence-Palm-Resort-Website',
+      link: 'https://github.com/Laoditius-M/Padi-s-Kitchen-Delight-Website',
     },
     {
       title: 'Florence Palms Resort',
