@@ -316,6 +316,7 @@ ul{
 .aboutMe-Sect .img-box .about-img{
     width: 100%;
     border-right: 6px solid rgb(0, 110, 255);
+    border-radius: 10px;
 }
 
 .aboutMe-Sect h3{
@@ -608,9 +609,14 @@ ul{
     }
 
     .btn {
-    margin-top: 10px;
-    padding: 7px;
-    font-size: 0.6em;
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 0.7em;
+    }
+
+    .heading p{
+        position: relative;
+        top: -10px;
     }
 
     /*----------- Main Formats -------*/
@@ -661,8 +667,7 @@ ul{
         width: 13px;
         height: 13px;
     }
-
-    
+ 
     .banner h2 {
     font-size: 1.4em;
     color: #fff;
@@ -686,15 +691,29 @@ ul{
    }
     /*----------- Banner -------*/
     .aboutMe-Sect .img-box {
-    width: 13em;
-    height: 13em;
+        width: 15em;
+        height: 15em;
+        position: relative;
+        top: -30px;
    }
 
-.skill-container .card {
-    padding: 15px 5px;
-    width: 98%;
-    max-width: 220px;
-}
+   .banner .social-IconsBox .socialImgBox {
+       width: 23px;
+       margin: 13px 8px;
+   }
+
+   .aboutMe-Sect h3 {
+       font-size: 1.5rem;
+   }
+
+   .fullS{
+    font-size: 3rem;
+   }
+
+    .skill-container .card {
+        width: 98%;
+        max-width: 220px;
+    }
 
     .skill-container .card-body p{
         font-size: 1em;
@@ -717,7 +736,11 @@ ul{
     width: 2.3em;
     margin-left: 4px;
     margin-top: 10px;
-}
+    }
+
+    .aboutMe-Sect h3 {
+        margin-top: 0;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -978,7 +1001,6 @@ ul{
     
     .projects .button-box .socialImg {
         width: 2em;
-        margin-left: 10px;
         margin-top: 2px;
     }
     
@@ -1091,6 +1113,10 @@ ul{
         top: -6px;
         padding: 0 2px;
     } 
+
+    .fullS{
+        font-size: 2rem;
+   }
     /*------------ Main Formats -----------*/
     
     /*----- Navigation Bar -----*/
@@ -1185,10 +1211,17 @@ ul{
     
     /*--------------- About Me--------------*/     
     .aboutMe-Sect .img-box {
-        width: 13em;
-        height: 13em;
+        width: 14em;
+        height: 14em;
     }  
     /*--------------- About Me--------------*/
+}
+
+@media only screen and (max-width: 760px) and (min-width: 426px){
+    .aboutMe-Sect .row {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -1205,6 +1238,10 @@ ul{
         padding-top: 44px;
         padding-bottom: 44px;
     } 
+
+    .heading h2{
+        margin-top: 16px;
+    }
     /*------------ Main Formats -----------*/
     
     /*----- Navigation Bar -----*/
@@ -1290,15 +1327,22 @@ ul{
     .aboutMe-Sect {
         width: initial;
     }
+
+    .aboutMe-Sect .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     
     .aboutMe-Sect .img-box {
         width: 11em;
         height: 11em;
+        margin-bottom: 20px;
     }
     
     .aboutMe-Sect .img-box .about-img {
         width: 100%;
         border-right: 3px solid rgb(255, 81, 0);
+        border-radius: 10px;
     }  
     /*--------------- About Me--------------*/
     
